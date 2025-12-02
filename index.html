@@ -5,117 +5,240 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div class="search-container">
         <div class="search">
-          <!-- search img + search bar -->
+          <img src="header-logo/magnify.svg" alt="" />
+          <input type="text" name="search" id="" />
         </div>
-        <div>
-          <!-- alert img + logo -->
-          <p>Morgan Oakley</p>
+        <div class="name-image">
+          <img src="header-logo/bell-ring-outline.svg" alt="" />
+          <img src="header-logo/dog-coding.jpg" alt="" class="doggo" />
+          <p>Farid Ziade</p>
         </div>
       </div>
-      <div>
-        <div class="greet-container">
-          <div class="greet">
-            <!-- logo -->
+
+      <div class="greet-container">
+        <div class="greet">
+          <img src="header-logo/dog-coding.jpg" alt="" class="dog" />
+          <div>
             <p class="greet">Hi there,</p>
-            <p class="name">Morgan Oakley (@morgan)</p>
+            <h2 class="name">Farid Ziade (@fredz48)</h2>
           </div>
-          <div class="btn">
-            <a href="">New</a>
-            <a href="">Upload</a>
-            <a href="">Share</a>
-          </div>
+        </div>
+        <div class="btn">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
         </div>
       </div>
     </header>
     <nav>
       <div class="title">
-        <!-- Cube logo -->
-        <h1>Dashboard</h1>
+        <div class="inside">
+          <img src="Dashboard-logo/dashboard.svg" alt="" />
+          <h1>Dashboard</h1>
+        </div>
+        <br />
+        <br />
       </div>
       <div class="nav-container">
-        <div class="logos">
-          <!-- logos * 9 -->
-        </div>
         <div class="nav">
-          <a href="">Home</a>
-          <a href="">Profile</a>
-          <a href="">Messages</a>
-          <a href="">History</a>
-          <a href="">Tasks</a>
-          <a href="">Communities</a>
+          <div class="inside">
+            <img src="Dashboard-logo/home.svg" alt="" />
+            <a href="">Home</a>
+          </div>
+          <div class="inside">
+            <img src="Dashboard-logo/profile.svg" alt="" />
+            <a href="">Profile</a>
+          </div>
+          <div class="inside">
+            <img src="Dashboard-logo/messages.svg" alt="" />
+            <a href="">Messages</a>
+          </div>
+          <div class="inside">
+            <img src="Dashboard-logo/history.svg" alt="" />
+            <a href="">History</a>
+          </div>
+          <div class="inside">
+            <img src="Dashboard-logo/tasks.svg" alt="" />
+            <a href="">Tasks</a>
+          </div>
+          <div class="inside">
+            <img src="Dashboard-logo/communities.svg" alt="" />
+            <a href="">Communities</a>
+          </div>
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
         <div class="settings">
-          <a href="">Settings</a>
-          <a href="">Support</a>
-          <a href="">Privacy</a>
+          <div class="inside">
+            <img src="Dashboard-logo/settings.svg" alt="" />
+            <a href="">Settings</a>
+          </div>
+          <div class="inside">
+            <img src="Dashboard-logo/support.svg" alt="" />
+            <a href="">Support</a>
+          </div>
+          <div class="inside">
+            <div class="inside">
+              <img src="Dashboard-logo/privacy.svg" alt="" />
+              <a href="">Privacy</a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
     <main>
-      <section class="main">
-        <h1>Your projects</h1>
-        <div class="card">
-          <h1>Super Cool Project</h1>
-          <p class="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta
-            debitis libero aliquid perferendis ipsa excepturi
-          </p>
-          <div class="star">
-            <!-- 3 logos -->
-          </div>
-        </div>
-      </section>
-      <aside>
-        <h1>Anouncements</h1>
-        <div class="anouncement-card">
-          <h2>Site Maintenance</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-            quod corrupti suscipit neque veniam soluta
-          </p>
-          <h2>Community Share Day</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            fugiat facilis repudiandae commodi vel dolor
-          </p>
-          <h2>Updated Privacy Policy</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            repellendus optio quasi, voluptatem, assumenda porro cum
-            exercitationem est eius nulla autem?
-          </p>
-        </div>
-        <div class="trend">
-          <h2>Trending</h2>
-          <div class="trending-card">
-            <div>
-              <!-- logo -->
-              <p>@tegan</p>
-              <p>World Peace Builder</p>
-            </div>
-            <div>
-              <!-- logo -->
-              <p>@morgan</p>
-              <p>Super Cool Project</p>
-            </div>
-            <div>
-              <!-- logo -->
-              <p>@Kendall</p>
-              <p>Life Changing App</p>
-            </div>
-            <div>
-              <!-- logo -->
-              <p>@alex</p>
-              <p>No Traffic Maker</p>
+      <div class="grid-1">
+        <h2>Your projects</h2>
+        <section class="main">
+          <div class="card">
+            <h2>Super Cool Project</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta
+              debitis libero aliquid perferendis ipsa excepturi
+            </p>
+            <div class="star">
+              <img src="main-logo/star-plus-outline.svg" alt="" />
+              <img src="main-logo/eye-plus-outline.svg" alt="" />
+              <img src="main-logo/share-variant-outline.svg" alt="" />
             </div>
           </div>
-        </div>
-      </aside>
+          <div class="card">
+            <h2>Super Cool Project</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta
+              debitis libero aliquid perferendis ipsa excepturi
+            </p>
+            <div class="star">
+              <img src="main-logo/star-plus-outline.svg" alt="" />
+              <img src="main-logo/eye-plus-outline.svg" alt="" />
+              <img src="main-logo/share-variant-outline.svg" alt="" />
+            </div>
+          </div>
+          <div class="card">
+            <h2>Super Cool Project</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta
+              debitis libero aliquid perferendis ipsa excepturi
+            </p>
+            <div class="star">
+              <img src="main-logo/star-plus-outline.svg" alt="" />
+              <img src="main-logo/eye-plus-outline.svg" alt="" />
+              <img src="main-logo/share-variant-outline.svg" alt="" />
+            </div>
+          </div>
+          <div class="card">
+            <h2>Super Cool Project</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta
+              debitis libero aliquid perferendis ipsa excepturi
+            </p>
+            <div class="star">
+              <img src="main-logo/star-plus-outline.svg" alt="" />
+              <img src="main-logo/eye-plus-outline.svg" alt="" />
+              <img src="main-logo/share-variant-outline.svg" alt="" />
+            </div>
+          </div>
+          <div class="card">
+            <h2>Super Cool Project</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta
+              debitis libero aliquid perferendis ipsa excepturi
+            </p>
+            <div class="star">
+              <img src="main-logo/star-plus-outline.svg" alt="" />
+              <img src="main-logo/eye-plus-outline.svg" alt="" />
+              <img src="main-logo/share-variant-outline.svg" alt="" />
+            </div>
+          </div>
+          <div class="card">
+            <h2>Super Cool Project</h2>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta
+              debitis libero aliquid perferendis ipsa excepturi
+            </p>
+            <div class="star">
+              <img src="main-logo/star-plus-outline.svg" alt="" />
+              <img src="main-logo/eye-plus-outline.svg" alt="" />
+              <img src="main-logo/share-variant-outline.svg" alt="" />
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="grid-2">
+        <aside>
+          <h2>Anouncements</h2>
+          <div class="anouncement-card">
+            <div class="cards">
+              <h3>Site Maintenance</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto, quod corrupti suscipit neque veniam soluta
+              </p>
+            </div>
+            <div class="cards">
+              <h3>Community Share Day</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur fugiat facilis repudiandae commodi vel dolor
+              </p>
+            </div>
+            <div class="last">
+              <h3>Updated Privacy Policy</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Similique repellendus optio quasi, voluptatem, assumenda porro
+                cum exercitationem est eius nulla autem?
+              </p>
+            </div>
+          </div>
+          <div class="trend">
+            <h2>Trending</h2>
+            <div class="trending-card">
+              <div class="main-container">
+                <img src="grid-2-logo/unicorn.svg" alt="" />
+                <div class="container">
+                  <p>@tegan</p>
+                  <p>World Peace Builder</p>
+                </div>
+              </div>
+              <div class="main-container">
+                <img src="grid-2-logo/hamster-remix.svg" alt="" />
+                <div class="container">
+                  <p>@morgan</p>
+                  <p>Super Cool Project</p>
+                </div>
+              </div>
+              <div class="main-container">
+                <img src="grid-2-logo/spdman.svg" alt="" />
+                <div class="container">
+                  <p>@Kendall</p>
+                  <p>Life Changing App</p>
+                </div>
+              </div>
+              <div class="main-container">
+                <img src="grid-2-logo/oriental-penguin-2.svg" alt="" />
+                <div class="container">
+                  <p>@alex</p>
+                  <p>No Traffic Maker</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
     </main>
 
     <script src="script.js"></script>

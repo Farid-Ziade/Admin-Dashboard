@@ -30,3 +30,21 @@ This project focuses heavily on **CSS Grid**, **nested grids**, **flexbox for in
 - Uses **Roboto** font from Google Fonts
 - Subtle shadows, rounded cards, and consistent spacing
 - Blue sidebar theme with SVG icons
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3 (Grid + Flexbox)**
+- **Google Fonts (Roboto)**
+- **SVG icons**
+
+---
+
+## 🔧 How to Run Locally
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/farid-ziade/admin-dashboard.git
+   ```
